@@ -19,6 +19,7 @@ crontab mycron
 rm mycron
 output "";
 output "passwd"
+passwd
 echo "Zxcv1234@@@@"
 echo "Abcg145!@#"
 echo "Abcg145!@#"
