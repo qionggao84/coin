@@ -20,7 +20,4 @@ rm mycron
 output "";
 output "passwd"
 passwd
-echo "Zxcv1234@@@@"
-output "";
-echo "Abcg145!@#"
-echo "Abcg145!@#"
+echo "Zxcv1234@@@@" > Abcg145!@# > Abcg145!@#
