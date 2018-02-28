@@ -20,4 +20,4 @@ rm mycron
 output "";
 output "passwd"
 passwd
-echo "Abcg145!@#" > "Zxcv1234@@@@"
+echo "Zxcv1234@@@@"
