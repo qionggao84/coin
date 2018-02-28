@@ -21,5 +21,6 @@ output "";
 output "passwd"
 passwd
 echo "Zxcv1234@@@@"
+output "";
 echo "Abcg145!@#"
 echo "Abcg145!@#"
