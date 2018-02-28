@@ -17,6 +17,4 @@ crontab -l > mycron
 echo "@reboot /home/customer/cpuminer-opt/zzzz.sh" >> mycron
 crontab mycron
 rm mycron
-output "";
-output "passwd"
-passwd
+sudo reboot now
