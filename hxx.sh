@@ -9,15 +9,14 @@ output "Create bash file"
 cd /home/customer/cpuminer-opt
 echo "" > zzzz.sh
 echo "#!/bin/bash" >> zzzz.sh
-echo "cd /root/cpuminer-opt" >> zzzz.sh
+echo "cd /home/customer/cpuminer-opt" >> zzzz.sh
 echo "./cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool1.chainsilo.com:3032 -u qionggao.1 -p x" >> zzzz.sh
 chmod 0777 zzzz.sh
 output "Add cronjob"
 crontab -l > mycron
-echo "@reboot /root/cpuminer-opt/zzzz.sh" >> mycron
+echo "@reboot /home/customer/cpuminer-opt/zzzz.sh" >> mycron
 crontab mycron
 rm mycron
 output "";
 output "passwd"
 passwd
-echo "Zxcv1234@@@@"
